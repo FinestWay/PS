@@ -21,6 +21,11 @@
   transition: background 0.3s ease;  /* smooth hover */
 }
 
+.dashboard-title {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
 .create-button:hover {
   background: #1f618d;
 }

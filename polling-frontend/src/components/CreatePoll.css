@@ -1,0 +1,72 @@
+.createpoll-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cancel-button {
+  background: none;
+  border: none;
+  color: #2980b9;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: color 0.3s;
+}
+.cancel-button:hover { color: #1f3a5f; }
+
+.createpoll-title {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.createpoll-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #34495e;
+}
+
+.cp-input,
+.cp-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.cp-input:focus,
+.cp-textarea:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 4px rgba(41,128,185,0.4);
+  outline: none;
+}
+
+.options-section {
+  margin-bottom: 1rem;
+}
+.add-option {
+  background: none;
+  border: none;
+  color: #27ae60;
+  cursor: pointer;
+  padding: 0.3rem 0;
+  transition: color 0.3s;
+}
+.add-option:hover { color: #1e8449; }
+
+.publish-button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.publish-button:hover { background: #1e8449; }

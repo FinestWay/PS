@@ -1,0 +1,47 @@
+.confirmation-container {
+  max-width: 480px;
+  margin: 5% auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;           /* smooth, modern corners */  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* soft shadow */  
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.confirmation-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
+.confirmation-title {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.confirmation-message {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+}
+
+.back-button {
+  padding: 0.7rem 1.5rem;
+  background-color: #2980b9;    /* primary accent color */  
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* smooth hover & tap feedback */
+}
+
+.back-button:hover {
+  background-color: #1f618d;
+}
+
+.back-button:active {
+  transform: scale(0.98);      /* subtle pressed effect */  
+}

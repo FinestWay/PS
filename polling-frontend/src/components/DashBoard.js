@@ -16,7 +16,7 @@ export default function Dashboard ({ onCreatePoll, onSelectPoll }) {
   return (
     <div className='dashboard-container'>
       <header className='dashboard-header'>
-        <h2>Ongoing Polls</h2>
+        <h1 className='dashboard-title'>DashBoard</h1>
         <button className='create-button' onClick={onCreatePoll}>
           + Create Poll
         </button>
@@ -26,7 +26,6 @@ export default function Dashboard ({ onCreatePoll, onSelectPoll }) {
           <CSSTransition key={poll.id} timeout={300} classNames='fade'>
             <div className='poll-card' onClick={() => onSelectPoll(poll.id)}>
               <h3 className='poll-title'>{poll.title}</h3>
-              <p className='poll-desc'>{poll.description}</p>
             </div>
           </CSSTransition>
         ))}
